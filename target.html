@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Target: Test your might!</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <script src="scripts/main.js"></script>
+    </head>
+    <body>
+        <div id="menu">
+            <li>
+                <ul><button type="button" onclick="setPlayer(1)">1 Player</button></ul>
+                <ul><button type="button" onclick="setPlayer(2)">2 Player</button></ul>
+                <ul><button type="button" onclick="setPlayer(3)">3 Player</button></ul>
+            </li>
+        </div>
+        <canvas id="canvas" height="400" width="1000">
+
+        </canvas>
+        <!-- ############################### BODY SCRIPT ############################### -->
+        <script>
+            cvs = document.getElementById('canvas');
+            ctx = cvs.getContext('2d');
+        </script>
+    </body>
+</html>
+
+
